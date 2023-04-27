@@ -1,8 +1,18 @@
-/*.background-image {
-  background-image: url("@/assets/img/header_bg.jpg");
+.background-image {
+  background-image: url("@/assets/img/portada.jpg");
   @extend %background-image;
-  margin-bottom: -1px;
+  height: 100vh;
 }
+header {
+  padding: 30vh 0vh;
+  h1 {
+    text-transform: none;
+    color: $white-color;
+
+  }
+  
+}
+/*
 .header-container {
   display: flex;
   align-items: center;

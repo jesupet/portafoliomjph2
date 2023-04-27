@@ -1,16 +1,25 @@
 .navbar {
   background-color: transparent;
   margin: 0px 50px;
+  @media (max-width: $tablet-width) {
+    margin: 0px;
+    button {
+      border: 0px solid transparent;
+    }
+  }
 }
 .nav-link {
   font-size: 15px;
   margin: 7px;
   text-transform: uppercase;
   color: $white-color;
+  &:hover {
+    color: $primary-color;
+  }
 }
 .active {
   font-weight: 700;
 }
 .nav-item {
-  padding-right: 50px;
+  padding-right: 30px;
 }
