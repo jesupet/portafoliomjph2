@@ -1,0 +1,24 @@
+/*.footer-text {
+  background-color: $primary-color;
+  margin: 0px;
+  padding: 25px;
+}
+
+.footer-text p {
+  font-size: 23px;
+  @extend %stix-font-bold;
+  margin: 0px;
+  a {
+    text-decoration: underline;
+  }
+  @media (max-width: $phone-width){
+    font-size: 18px;
+  }
+}
+.footer-img {
+  width: 100%;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}*/

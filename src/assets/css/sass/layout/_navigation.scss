@@ -1,0 +1,16 @@
+.navbar {
+  background-color: transparent;
+  margin: 0px 50px;
+}
+.nav-link {
+  font-size: 15px;
+  margin: 7px;
+  text-transform: uppercase;
+  color: $white-color;
+}
+.active {
+  font-weight: 700;
+}
+.nav-item {
+  padding-right: 50px;
+}

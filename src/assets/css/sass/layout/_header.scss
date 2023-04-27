@@ -1,0 +1,68 @@
+/*.background-image {
+  background-image: url("@/assets/img/header_bg.jpg");
+  @extend %background-image;
+  margin-bottom: -1px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  @media (min-width: 768px){
+    padding: 0px 80px;
+  }
+}
+@media (min-width: 1400px){
+  .columna1-header{
+    width: 67%;
+  }
+}
+.header-text {
+  padding-top: 100px;
+}
+
+.columna2-header a {
+  float: right;
+  width: auto;
+  padding: 2px;
+}
+.columna2-header {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  @media (max-width: 990px){
+    display: none;
+  }
+}
+.insta-icon, .fb-icon {
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  transition: 0.3s;
+  img {
+    width: 37px;
+  }
+}
+.insta-icon:hover, .fb-icon:hover {
+  opacity: 60%;
+}
+.header2-img {
+  position: absolute;
+  top: 1;
+  z-index: -2;
+}
+#aysen {
+  padding: 260px 12px;
+  word-wrap: break-word;
+  @media (min-width: 768px){
+    padding: 260px 80px 260px;
+  }
+}
+.landscape-img {
+  padding: 0px 10px;
+}
+.desc-text {
+  padding: 40px;
+    @media (max-width: $tablet-width){
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+}*/
