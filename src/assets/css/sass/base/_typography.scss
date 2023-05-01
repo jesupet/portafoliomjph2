@@ -10,12 +10,14 @@ h1 {
   }
 }
 h2 {
-  letter-spacing: 17.5%;
+  letter-spacing: 0.5rem;
   font-size: 30px;
+  color: $primary-color;
+  text-align: center;
 }
 p {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   span {
     font-weight: 700;
   }

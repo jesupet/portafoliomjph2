@@ -21,23 +21,13 @@ export default {
       type: String,
       default:'/'
     }
-  }
+  },
+  
 }
 </script>
 
 <style scoped>
-.btn-purple {
-  background-color: #5241B8;
-  color: #fff;
-  font-size: 14px;
-  padding: 8px 20px 8px 20px;
-}
-button:hover {
-  text-decoration: none;
-  color: #5241B8;
-  background-color: #fff;
-  border-color:#5241B8;
-}
+
 
 
 </style>
