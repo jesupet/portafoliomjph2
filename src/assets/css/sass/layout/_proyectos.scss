@@ -1,27 +1,39 @@
-/*.background-image3 {
-  background-image: url("@/assets/img/proyectos_bg.jpg");
-  @extend %background-image;
-  margin: 0px;
-  margin-bottom: -1px;
-}
-#proyectos {
-  text-align: center;
-  padding: 100px 50px;
-  @media (min-width: $tablet-width){
-    padding: 100px 0px;
+#myprojects {
+  background-color: $primary-color;
+  padding: 100px 0px;
+  h2 {
+    color: $secondary-color;
+  }
+  .row {
+    padding: 50px;
   }
 }
-.proyect-cont {
-  padding: 80px 0px;
-}
-.desc-text {
-  padding: 40px;
-    @media (max-width: $tablet-width){
-      padding-left: 0px;
-      padding-right: 0px;
-      .bajada {
-        line-height: 130%;
-      }
+.proy-cont {
+  padding:  20px;
+  &:hover .box .overlay {
+    opacity: 100%;
   }
-  
-}*/
+  img {
+    width: 100%;
+    
+  }
+}
+.box{
+  position: relative;
+  transition: 0.8s;
+}
+.overlay {
+  background-color: $secondary-color;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0%;
+  transition: 0.8s;
+  p {
+    padding: 10px;
+    color: $primary-color;
+  }
+}
+
