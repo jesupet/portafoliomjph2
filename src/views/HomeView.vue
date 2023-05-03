@@ -19,7 +19,7 @@
           My friends call me Jesu or Maria. I am 30 years old and I love web design. I studied <span>Commercial Engineering</span> at the Catholic University, where I gained an important perspective on business and management. 
           While working as a <span>Product Manager</span> in charge of government software development, my interest in design and coding arose. The decision to study <span>Front End Development</span> was born because it was a perfect mix between my passion for web design and my structured and organized way of solving problems. I finished my degree in June 2022 and have been working on some freelance projects. In March of this year, I started working with a design agency called Vanilla. Together, we are able to offer a complete product from the needs diagnosis to the entire website building.
         </p>
-        <PurpleButton @click="descargarPdf" :buttonText="'Download my CV'" :to="''"/>
+        <PurpleButton :isInternal="false" :buttonText="'Download my CV'" externalLink="https://drive.google.com/file/d/1faoJeA1O57nakckUlpAE3xgk8KOj9och/view?usp=sharing"/>
       </div>
     </div>
   </section>
@@ -30,7 +30,7 @@
         <div class="box">
           <img src="@/assets/img/eleamchile.png" alt="" class="img-fluid">
           <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-            <PurpleButton :buttonText="'Eleam Chile'" :href="'https://eleamchile.cl'"/>
+            <PurpleButton :isInternal="false" :buttonText="'Eleam Chile'" externalLink="https://eleamchile.cl"/>
             <p>Project Manager / Diseño UX UI</p>
           </div>
         </div>
@@ -39,7 +39,7 @@
         <div class="box">
           <img src="@/assets/img/satournow.png" alt="" class="img-fluid">
           <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-            <PurpleButton :buttonText="'Sa-tour-now!'" :href="'https://jesupet.github.io/SaturnoGit/'"/>
+            <PurpleButton :isInternal="false" :buttonText="'Sa-tour-now!'" externalLink="https://jesupet.github.io/SaturnoGit/"/>
             <p>Final Project Front End Career</p>
           </div>
         </div>
@@ -48,7 +48,7 @@
         <div class="box">
           <img src="@/assets/img/futuropatagonia.png" alt="" class="img-fluid">
           <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-            <PurpleButton :buttonText="'Futuro Patagonia'" :href="'https://futuropatagonia.cl/'"/>
+            <PurpleButton :isInternal="false" :buttonText="'Futuro Patagonia'" externalLink="https://futuropatagonia.cl/"/>
             <p>Front End Developer with Vanilla</p>
           </div>
         </div>
@@ -57,7 +57,7 @@
         <div class="box">
           <img src="@/assets/img/vanilla.png" alt="" class="img-fluid">
           <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-            <PurpleButton :buttonText="'Vanilla (Soon)'"/>
+            <PurpleButton :isInternal="false" :buttonText="'Vanilla (Soon)'"/>
             <p>Front End Developer with Vanilla</p>
           </div>
         </div>
@@ -66,7 +66,7 @@
   </section>
   <section id="toolkit" class="container text-center">
     <h2>Tool Kit</h2>
-    <div class="tool-box">
+    <div class="tool-box text-center">
       <div class="text-center mx-2">
         <img src="@/assets/img/tool_kit_logos/js.png" alt="javascript logo" class="img-fluid tool-logo">
       </div>
@@ -89,11 +89,14 @@
         <img src="@/assets/img/tool_kit_logos/trello.png" alt="bootstrap logo" class="img-fluid tool-logo">
       </div>
       <div class="text-center mx-2">
-        <img src="@/assets/img/tool_kit_logos/notion.svg.png" alt="bootstrap logo" class="img-fluid tool-logo">
+        <img src="@/assets/img/tool_kit_logos/notion.png" alt="bootstrap logo" class="img-fluid tool-logo">
       </div>
     </div>
-    
   </section>
+  <section class="pb-0" id="contact">
+      <div data-tf-widget="jyga5Bo3" data-tf-opacity="100" data-tf-iframe-props="title=My typeform" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:500px;" class="typeform"></div>
+  </section>
+  <FooterPort/>
 </div>
   
 </template>
@@ -102,16 +105,17 @@
 // @ is an alias to /src
 import NavBar from '@/components/NavBar.vue'
 import PurpleButton from '@/components/PurpleButton.vue'
-import { mapActions } from 'vuex'
+import FooterPort from '@/components/FooterPort.vue'
 
 export default {
   name: 'HomeView',
   components: {
     NavBar,
     PurpleButton,
+    FooterPort,
   },
   methods: {
-    ...mapActions(['descargarPdf'])
+
   }
 }
 </script>

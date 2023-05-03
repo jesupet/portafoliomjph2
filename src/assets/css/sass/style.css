@@ -233,38 +233,37 @@ header h1 {
 .tool-box {
   padding: 50px 0px;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .tool-logo {
   width: 100px;
-  padding: 0px 10px;
+  padding: 10px;
 }
 
-/*.footer-text {
-  background-color: $primary-color;
-  margin: 0px;
-  padding: 25px;
+#contact {
+  background-color: #71F4CD;
 }
 
-.footer-text p {
-  font-size: 23px;
-  @extend %stix-font-bold;
-  margin: 0px;
-  a {
-    text-decoration: underline;
-  }
-  @media (max-width: $phone-width){
-    font-size: 18px;
-  }
-}
-.footer-img {
-  width: 100%;
+.typeform {
+  min-height: 100%;
   overflow: hidden;
+}
+
+#footer {
+  background-color: #5241B8;
+}
+#footer .row {
+  padding: 20px 50px;
+}
+
+.footer-text {
+  color: #fff;
   margin: 0px;
-  padding: 0px;
-  border: none;
-}*/
+  font-size: 20px;
+}
+
 .btn-purple {
   background-color: #5241B8;
   color: #fff;

@@ -1,28 +1,36 @@
 <template>
-  <button type="button" class="btn btn-purple rounded-pill">
-    <router-link :to="to">{{buttonText}}</router-link>
-  </button>
+    <button v-if="isInternal" @click="scrollToSection(internalLink)" type="button" class="btn btn-purple rounded-pill">
+      {{buttonText}}
+    </button>
+    <a class="btn btn-purple rounded-pill" v-else :href="externalLink" target="_blank">{{ buttonText }}</a>
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 
 export default {
   name: 'PurpleButton',
   props: {
-    to: {
-      type: String,
-      default: '/'
+    isInternal: {
+      type: Boolean,
+      required: true,
     },
     buttonText: {
       type: String,
-      default: 'Button'
+      required: true,
     },
-    href: {
+    internalLink: {
       type: String,
-      default:'/'
-    }
+      default: '#',
+    },
+    externalLink: {
+      type: String,
+      default: '#',
+    },
   },
-  
+  methods: {
+    ...mapActions(['scrollToSection'])
+  }
 }
 </script>
 

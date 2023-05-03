@@ -10,3 +10,6 @@ module.exports = defineConfig({
       .end();
   }
 })
+module.exports = {
+  publicPath: "https://jesupet.github.io/portafoliomjph2/"
+}
