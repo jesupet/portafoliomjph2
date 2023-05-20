@@ -1,12 +1,13 @@
 <template>
-<div class="background-image">
-  <NavBar/>
-  <header class="container align-items-center">
-    <div>
-      <h1>Hello my name is Maria. <span>Welcome to my portfolio!</span></h1>
-    </div>
-  </header>
-  <section id="aboutme" class="container">
+  <div class="background-image">
+    <NavBar/>
+    <header class="container align-items-center">
+      <div>
+        <h1>Hello my name is Maria. <span>Welcome to my portfolio!</span></h1>
+      </div>
+    </header>
+  </div>
+  <div class="container" id="aboutme">
     <h2>About Me</h2>
     <div class="row">
       <div class="col-12 col-sm-5">
@@ -22,7 +23,7 @@
         <PurpleButton :isInternal="false" :buttonText="'Download my CV'" externalLink="https://drive.google.com/file/d/1faoJeA1O57nakckUlpAE3xgk8KOj9och/view?usp=sharing"/>
       </div>
     </div>
-  </section>
+  </div>
   <section id="myprojects" class="container-fluid">
     <h2>My Projects</h2>
     <div class="row">
@@ -97,7 +98,7 @@
       <div data-tf-widget="jyga5Bo3" data-tf-opacity="100" data-tf-iframe-props="title=My typeform" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:500px;" class="typeform"></div>
   </section>
   <FooterPort/>
-</div>
+
   
 </template>
 
@@ -114,8 +115,5 @@ export default {
     PurpleButton,
     FooterPort,
   },
-  methods: {
-
-  }
 }
 </script>

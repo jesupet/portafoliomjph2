@@ -3,19 +3,16 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
+    showButton: false
   },
   getters: {
   },
   mutations: {
   },
   actions: {
-    scrollToSection() {
-      console.log (this.internalLink)
-      const section = document.querySelector(this.internalLink);
-      if (section) {
-        window.scrollTo({ top: section.offsetTop, behavior: 'smooth' });
-      }
-    },
+    setShowButton(state, value) {
+      state.showButton = value;
+    }
     },
   modules: {
   }
