@@ -103,6 +103,29 @@ header h1 {
   color: #fff;
 }
 
+@media (min-width: 780px) {
+  .header-text {
+    width: 75%;
+    animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #5241B8;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #5241B8;
+  }
+}
 /*
 .header-container {
   display: flex;
@@ -168,7 +191,7 @@ header h1 {
   }
 }*/
 #aboutme {
-  padding: 100px 0px;
+  padding: 100px 12px;
 }
 
 .frame-pic {
@@ -226,6 +249,15 @@ header h1 {
   color: #5241B8;
 }
 
+.project-p {
+  margin: 0px;
+}
+@media (max-width: 780px) {
+  .project-p {
+    font-size: 16px;
+  }
+}
+
 #toolkit {
   padding: 100px 0px;
 }
@@ -238,7 +270,8 @@ header h1 {
 }
 
 .tool-logo {
-  width: 100px;
+  max-width: 100px;
+  max-height: 100px;
   padding: 10px;
 }
 
