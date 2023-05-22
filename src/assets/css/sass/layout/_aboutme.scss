@@ -12,5 +12,8 @@
   padding: 50px 20px;
   p {
     text-align: justify;
+    @media (max-width: 780px) {
+      font-size: 20px;
+    }
   }
 }
