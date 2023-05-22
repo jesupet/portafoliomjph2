@@ -108,6 +108,7 @@ import NavBar from '@/components/NavBar.vue'
 import PurpleButton from '@/components/PurpleButton.vue'
 import FooterPort from '@/components/FooterPort.vue'
 
+
 export default {
   name: 'HomeView',
   components: {
