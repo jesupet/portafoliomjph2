@@ -124,7 +124,7 @@ header h1 {
 
 @media (min-width: 1200px) {
   .header-text {
-    width: 75%;
+    width: 73%;
     animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -137,12 +137,9 @@ header h1 {
     width: 0;
   }
 }
-@keyframes blink-caret {
-  from, to {
-    border-color: transparent;
-  }
+@keyframes blink {
   50% {
-    border-color: #5241B8;
+    border-color: transparent;
   }
 }
 /*
