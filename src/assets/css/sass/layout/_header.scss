@@ -15,7 +15,7 @@ header {
   
 }
 .header-text {
-  @media (min-width: 780px){
+  @media (min-width: 1200px){
     width: 75%;
     animation: typing 4s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;

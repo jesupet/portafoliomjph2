@@ -3,7 +3,7 @@
     <NavBar/>
     <header class="container align-items-center">
       <div class="header-text">
-        <h1>Hello my name is Maria. <span>Welcome to my portfolio!</span></h1>
+        <h1>Hello my name is Maria. <br class="d-xl-none"/><span>Welcome to my portfolio!</span></h1>
       </div>
     </header>
   </div>
@@ -17,7 +17,7 @@
       </div>
       <div class="col-12 col-sm-7 bio-box">
         <p>
-          My friends call me Jesu or Maria. I am 30 years old and I love web design. I studied <span>Commercial Engineering</span> at the Catholic University, where I gained an important perspective on business and management. <br/><br/>
+          My friends call me Jesu or Maria. I am 30 years old and I love web design. I studied <span>Commercial Engineering</span> at Universidad Católica, where I gained an important perspective on business and management. <br/><br/>
           While working as a <span>Product Manager</span> in charge of government software development, my interest in design and coding arose. The decision to study <span>Front End Development</span> was born because it was a perfect mix between my passion for web design and my structured and organized way of solving problems. I finished my degree in June 2022 and have been working on some freelance projects. <br/><br/>In March of this year, I started working with a design agency called Vanilla. Together, we are able to offer a complete product from the needs diagnosis to the entire website building.<br/><br/>
         </p>
         <PurpleButton :isInternal="false" :buttonText="'Download my CV'" externalLink="https://drive.google.com/file/d/1faoJeA1O57nakckUlpAE3xgk8KOj9och/view?usp=sharing"/>
