@@ -79,6 +79,11 @@ p span {
 .nav-link:hover {
   color: #5241B8;
 }
+@media (max-width: 991px) {
+  .nav-link:hover {
+    color: #fff;
+  }
+}
 
 .active {
   font-weight: 700;
@@ -86,6 +91,20 @@ p span {
 
 .nav-item {
   padding-right: 30px;
+}
+@media (max-width: 991px) {
+  .nav-item {
+    padding-right: 0px;
+  }
+}
+
+#navbarNav.offcanvas {
+  background-color: rgba(0, 0, 0, 0.3);
+  justify-content: center;
+}
+
+.btn-close-white {
+  text-align: right;
 }
 
 .background-image {
@@ -314,6 +333,15 @@ header h1 {
   color: #5241B8;
   background-color: transparent;
   border-color: #5241B8;
+}
+
+.btn-nav {
+  font-size: 15px;
+}
+@media (max-width: 991px) {
+  .btn-nav {
+    margin-top: 15px;
+  }
 }
 
 .chile-map-cont {

@@ -16,10 +16,26 @@
   &:hover {
     color: $primary-color;
   }
+  @media (max-width: 991px) {
+
+    &:hover {
+      color: $white-color;
+    }
+  }
 }
 .active {
   font-weight: 700;
 }
 .nav-item {
   padding-right: 30px;
+  @media (max-width: 991px) {
+    padding-right: 0px;
+  }
+}
+#navbarNav.offcanvas {
+  background-color: rgba(0, 0, 0, 0.3);
+  justify-content: center;
+}
+.btn-close-white {
+  text-align: right;
 }
