@@ -1,11 +1,12 @@
 <template>
     <div id="footer" class="container-fluid">
         <div class="row">
-            <div class="col-12 col-sm-6 text-center">
+            <div class="col-6 text-end">
                 <p class="footer-text">mjpetour@gmail.com</p>
+                <p class="footer-text">+56 9 9319 7262</p>
             </div>
-            <div class="col-12 col-sm-6 text-center">
-                <p class="footer-text">+569 93197262</p>
+            <div class="col-6 text-start">
+                <a href="https://www.linkedin.com/in/mariajesuspetour" target="_blank"><img src="../assets/linkedin.png" alt=""></a>
             </div>  
         </div>
     </div>

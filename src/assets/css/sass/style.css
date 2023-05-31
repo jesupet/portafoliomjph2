@@ -120,15 +120,29 @@ header {
 header h1 {
   text-transform: none;
   color: #fff;
+  display: inline-block;
+}
+@media (min-width: 1700px) {
+  header {
+    padding: 35vh 0vh;
+  }
 }
 
+.header-text {
+  display: inline-block;
+}
 @media (min-width: 1200px) {
   .header-text {
-    width: 73%;
+    width: 85%;
     animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid #5241B8;
+  }
+}
+@media (min-width: 1400px) {
+  .header-text {
+    width: 73%;
   }
 }
 
@@ -310,12 +324,22 @@ header h1 {
 }
 #footer .row {
   padding: 20px 50px;
+  align-items: center;
+}
+#footer .row a img {
+  width: 50px;
+  margin: 0px;
+  padding: 0px;
+  transition: 0.3s;
+}
+#footer .row a img:hover {
+  opacity: 0.5;
 }
 
 .footer-text {
   color: #fff;
   margin: 0px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .btn-purple {

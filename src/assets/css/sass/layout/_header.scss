@@ -10,17 +10,24 @@ header {
   h1 {
     text-transform: none;
     color: $white-color;
-
+    display: inline-block;
+  }
+  @media (min-width: 1700px) {
+    padding: 35vh 0vh;
   }
   
 }
 .header-text {
-  @media (min-width: 1200px){
-    width: 73%;
+  display: inline-block;
+  @media (min-width: $desktop-l-width){
+    width: 85%;
     animation: typing 4s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid $primary-color;
+  }
+  @media (min-width: $desktop-xl-width) {
+    width: 73%;
   }
   
 }

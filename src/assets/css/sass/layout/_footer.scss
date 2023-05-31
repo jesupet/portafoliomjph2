@@ -2,10 +2,20 @@
   background-color: $primary-color;
   .row {
     padding: 20px 50px;
+    align-items: center;
+    a img{
+      width: 50px;
+      margin: 0px;
+      padding: 0px;
+      transition: 0.3s;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
   }
 }
 .footer-text {
   color: $white-color;
   margin: 0px;
-  font-size: 20px;
+  font-size: 15px;
 }
