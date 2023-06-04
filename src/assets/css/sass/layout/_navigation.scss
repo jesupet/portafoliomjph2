@@ -22,6 +22,13 @@
       color: $white-color;
     }
   }
+  img {
+    width: 32px;
+    transition: 0.3s;
+    &:hover {
+      opacity: 0.3;
+    }
+  }
 }
 .active {
   font-weight: 700;

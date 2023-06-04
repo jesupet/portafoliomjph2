@@ -84,6 +84,13 @@ p span {
     color: #fff;
   }
 }
+.nav-link img {
+  width: 32px;
+  transition: 0.3s;
+}
+.nav-link img:hover {
+  opacity: 0.3;
+}
 
 .active {
   font-weight: 700;

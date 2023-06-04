@@ -10,19 +10,19 @@
         </div>
         <ul class="navbar-nav ms-lg-auto align-items-center">
           <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'aboutme'}">About Me</router-link>
+            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'aboutme'}">Sobre Mi</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'myprojects'}">My Projects</router-link>
+            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'myprojects'}">Mis Proyectos</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'toolkit'}">Tool Kit</router-link>
+            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'toolkit'}">Herramientas</router-link>
           </li>
           <li>
-            <router-link class="btn btn-purple rounded-pill btn-nav" aria-current="page" :to="{name: 'home', hash: '#'+'contact'}">Write Me!</router-link>
+            <router-link class="btn btn-purple rounded-pill btn-nav" aria-current="page" :to="{name: 'home', hash: '#'+'contact'}">Escríbeme!</router-link>
           </li>
           <li>
-            <router-link class="nav-link" aria-current="page" :to="'/spa'"><img src="../assets/spa.png" alt="español"></router-link>
+            <router-link class="nav-link" aria-current="page" :to="'/'"><img src="../assets/en.png" alt="english"></router-link>
           </li>
         </ul>
       </div>
