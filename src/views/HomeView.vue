@@ -68,29 +68,69 @@
   <section id="toolkit" class="container text-center">
     <h2>Tool Kit</h2>
     <div class="tool-box text-center">
-      <div class="text-center mx-2">
-        <img src="@/assets/img/tool_kit_logos/js.png" alt="javascript logo" class="img-fluid tool-logo">
+      <div class="text-center mx-2 con-tooltip">
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">
+          <img src="@/assets/img/tool_kit_logos/js.png" alt="javascript logo" class="img-fluid tool-logo">
+        </a>
+        <div class="tooltip">
+          <p>Javascript</p>
+        </div>
       </div>
-      <div class="text-center mx-2">
-        <img src="@/assets/img/tool_kit_logos/css.png" alt="css logo" class="img-fluid tool-logo">
+      <div class="text-center mx-2 con-tooltip">
+        <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">
+          <img src="@/assets/img/tool_kit_logos/css.png" alt="css logo" class="img-fluid tool-logo">
+        </a>
+        <div class="tooltip">
+          <p>CSS</p>
+        </div>
       </div>
-      <div class="text-center mx-2">
-        <img src="@/assets/img/tool_kit_logos/vue.png" alt="vue logo" class="img-fluid tool-logo">
+      <div class="text-center mx-2 con-tooltip">
+        <a href="https://vuejs.org/" target="_blank">
+          <img src="@/assets/img/tool_kit_logos/vue.png" alt="vue logo" class="img-fluid tool-logo">
+        </a>
+        <div class="tooltip">
+          <p>Vue</p>
+        </div>
       </div>
-      <div class="text-center mx-2 align-items-center">
-        <img src="@/assets/img/tool_kit_logos/sass.png" alt="sass logo" class="img-fluid tool-logo">
+      <div class="text-center mx-2 con-tooltip align-items-center">
+        <a href="https://sass-lang.com/" target="_blank">
+          <img src="@/assets/img/tool_kit_logos/sass.png" alt="sass logo" class="img-fluid tool-logo">
+        </a>
+        <div class="tooltip">
+          <p>Sass</p>
+        </div>
       </div>
-      <div class="text-center mx-2">
-        <img src="@/assets/img/tool_kit_logos/bootstrap.png" alt="bootstrap logo" class="img-fluid tool-logo">
+      <div class="text-center mx-2 con-tooltip">
+        <a href="https://getbootstrap.com/" target="_blank">
+          <img src="@/assets/img/tool_kit_logos/bootstrap.png" alt="bootstrap logo" class="img-fluid tool-logo">
+        </a>
+        <div class="tooltip">
+          <p>Bootstrap</p>
+        </div>
       </div>
-      <div class="text-center mx-2">
-        <img src="@/assets/img/tool_kit_logos/figma.png" alt="bootstrap logo" class="img-fluid tool-logo">
+      <div class="text-center mx-2 con-tooltip">
+        <a href="https://www.figma.com/" target="_blank">
+          <img src="@/assets/img/tool_kit_logos/figma.png" alt="figma logo" class="img-fluid tool-logo">
+        </a>
+        <div class="tooltip">
+          <p>Figma</p>
+        </div>
       </div>
-      <div class="text-center mx-2">
-        <img src="@/assets/img/tool_kit_logos/trello.png" alt="bootstrap logo" class="img-fluid tool-logo">
+      <div class="text-center mx-2 con-tooltip">
+        <a href="https://trello.com/" target="_blank">
+          <img src="@/assets/img/tool_kit_logos/trello.png" alt="trello logo" class="img-fluid tool-logo">
+        </a>
+        <div class="tooltip">
+          <p>Trello</p>
+        </div>
       </div>
-      <div class="text-center mx-2">
-        <img src="@/assets/img/tool_kit_logos/notion.png" alt="bootstrap logo" class="img-fluid tool-logo">
+      <div class="text-center mx-2 con-tooltip">
+        <a href="https://notion.so/" target="_blank">
+          <img src="@/assets/img/tool_kit_logos/notion.png" alt="notion logo" class="img-fluid tool-logo">
+        </a>
+        <div class="tooltip">
+          <p>Notion</p>
+        </div>
       </div>
     </div>
   </section>
@@ -116,5 +156,8 @@ export default {
     PurpleButton,
     FooterPort,
   },
+  methods: {
+    
+  }
 }
 </script>
