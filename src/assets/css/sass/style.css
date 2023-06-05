@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,700;1,300&display=swap");
-.background-image {
+.background-image7, .background-image {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -399,7 +399,7 @@ header h1 {
   border-color: #5241B8;
   color: #5241B8;
 }
-.contact-spa form .form-control::placeholder {
+.contact-spa form .form-control::placeholder, .contact-spa form input {
   color: #5241B8;
 }
 @media (max-width: 768px) {
@@ -514,6 +514,56 @@ header h1 {
 .chile-map {
   margin-right: -50px;
   height: 1736px;
+}
+
+.background-image7 {
+  background-image: url("@/assets/img/portada.jpg");
+  height: 100vh;
+}
+
+.big-cont {
+  display: flex;
+  align-items: center;
+  /* Alinea verticalmente al centro */
+  justify-content: center;
+  /* Alinea horizontalmente al centro */
+}
+
+.thanks-cont {
+  color: #fff;
+}
+@media (min-width: 992px) {
+  .thanks-cont {
+    width: 40%;
+  }
+}
+
+.big-txt {
+  font-size: 90px;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 480px) {
+  .big-txt {
+    font-size: 60px;
+  }
+}
+
+.espaciado {
+  margin: 30px 0px;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.mi-pagina-vue {
+  max-height: 100vh;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.foot-tks {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

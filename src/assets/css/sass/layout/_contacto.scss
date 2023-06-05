@@ -16,7 +16,7 @@
       border-color: $primary-color;
       color: $primary-color;
     }
-    .form-control::placeholder {
+    .form-control::placeholder, input {
       color: $primary-color;
     }
     @media (max-width: $tablet-width){

@@ -1,0 +1,38 @@
+.background-image7 {
+  background-image: url("@/assets/img/portada.jpg");
+  @extend %background-image;
+  height: 100vh;
+}
+.big-cont {
+  display: flex;
+  align-items: center; /* Alinea verticalmente al centro */
+  justify-content: center; /* Alinea horizontalmente al centro */
+}
+.thanks-cont {
+  @media (min-width: $desktop-width){
+    width: 40%;
+  }
+  color: $white-color;
+}
+.big-txt {
+  font-size: 90px;
+  @media (max-width: $phone-width){
+    font-size: 60px;
+  }
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+.espaciado {
+ margin: 30px 0px;
+ text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+.mi-pagina-vue {
+  max-height: 100vh;
+  overflow-y: hidden;
+  position: relative;
+}
+.foot-tks {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
