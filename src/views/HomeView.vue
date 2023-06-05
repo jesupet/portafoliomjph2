@@ -1,4 +1,5 @@
 <template>
+  <WhatsAppBtn class="whatsapp fixed-button" :v-if="showButton"/>
   <div class="background-image">
     <NavBar/>
     <header class="container align-items-center">
@@ -20,7 +21,7 @@
           My friends call me Jesu or Maria. I am 30 years old and I love web design. I studied <span>Commercial Engineering</span> at Universidad Católica, where I gained an important perspective on business and management. <br/><br/>
           While working as a <span>Product Manager</span> in charge of government software development, my interest in design and coding arose. The decision to study <span>Front End Development</span> was born because it was a perfect mix between my passion for web design and my structured and organized way of solving problems. I finished my degree in June 2022 and have been working on some freelance projects. <br/><br/>In March of this year, I started working with a design agency called Vanilla. Together, we are able to offer a complete product from the needs diagnosis to the entire website building.<br/><br/>
         </p>
-        <PurpleButton :isInternal="false" :buttonText="'Download my CV'" externalLink="https://drive.google.com/file/d/1faoJeA1O57nakckUlpAE3xgk8KOj9och/view?usp=sharing"/>
+        <PurpleButton :isInternal="false" :buttonText="'Download my CV'" externalLink="https://drive.google.com/file/d/1jq5uKrAo-rOzXr56NFP4A97835-5mTH2/view?usp=sharing"/>
       </div>
     </div>
   </div>
@@ -144,6 +145,7 @@
 
 <script>
 // @ is an alias to /src
+import WhatsAppBtn from '@/components/WhatsAppBtn.vue'
 import NavBar from '@/components/NavBar.vue'
 import PurpleButton from '@/components/PurpleButton.vue'
 import FooterPort from '@/components/FooterPort.vue'
@@ -152,6 +154,7 @@ import FooterPort from '@/components/FooterPort.vue'
 export default {
   name: 'HomeView',
   components: {
+    WhatsAppBtn,
     NavBar,
     PurpleButton,
     FooterPort,

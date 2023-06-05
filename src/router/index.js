@@ -4,12 +4,12 @@ import HomeViewSpa from '../views/HomeViewSpa.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/en',
     name: 'home',
     component: HomeView
   },
   {
-    path: '/spa',
+    path: '/',
     name: 'home español',
     component: HomeViewSpa,
   },

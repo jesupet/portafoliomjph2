@@ -22,7 +22,7 @@
             <router-link class="btn btn-purple rounded-pill btn-nav" aria-current="page" :to="{name: 'home', hash: '#'+'contact'}">Write Me!</router-link>
           </li>
           <li>
-            <router-link class="nav-link" aria-current="page" :to="'/spa'"><img src="../assets/spa.png" alt="español"></router-link>
+            <router-link class="nav-link" aria-current="page" :to="'/'"><img src="../assets/spa.png" alt="español"></router-link>
           </li>
         </ul>
       </div>

@@ -1,4 +1,5 @@
 <template>
+  <WhatsAppBtn class="whatsapp fixed-button" :v-if="showButton"/> 
   <div class="background-image">
     <NavBarSpa/>
     <header class="container align-items-center">
@@ -17,10 +18,12 @@
       </div>
       <div class="col-12 col-sm-7 bio-box">
         <p>
-          My friends call me Jesu or Maria. I am 30 years old and I love web design. I studied <span>Commercial Engineering</span> at Universidad Católica, where I gained an important perspective on business and management. <br/><br/>
-          While working as a <span>Product Manager</span> in charge of government software development, my interest in design and coding arose. The decision to study <span>Front End Development</span> was born because it was a perfect mix between my passion for web design and my structured and organized way of solving problems. I finished my degree in June 2022 and have been working on some freelance projects. <br/><br/>In March of this year, I started working with a design agency called Vanilla. Together, we are able to offer a complete product from the needs diagnosis to the entire website building.<br/><br/>
+          Siempre he sido una persona curiosa y activa, buscando cosas nuevas que aprender, ya sea nuevos deportes, manualidades, programas, formas de hacer las cosas, etc. Después de estudiar Ingeniería Comercial me empecé a interesar por el <span>mundo digital</span>, vinculando mi lado creativo con mi mente organizada pude llevar a cabo grandes proyectos en este ámbito, sobre todo durante la pandemia. Fue en ese período donde estudié <span>Desarrollo Front End</span> y comencé a entrar en el mundo de la programación. 
+          <br/><br/>
+          Actualmente estoy buscando desarrollar proyectos web donde pueda apoyar emprendimientos o empresas que tengan un propósito que me haga sentido. Lo veo como una forma de integrar a mi carrera mi <span>fuerte motivación por la sustentabilidad.</span>
+          <br/><br/>
         </p>
-        <PurpleButton :isInternal="false" :buttonText="'Descarga mi CV'" externalLink="https://drive.google.com/file/d/1faoJeA1O57nakckUlpAE3xgk8KOj9och/view?usp=sharing"/>
+        <PurpleButton :isInternal="false" :buttonText="'Descarga mi CV'" externalLink="https://drive.google.com/file/d/1jq5uKrAo-rOzXr56NFP4A97835-5mTH2/view?usp=sharing"/>
       </div>
     </div>
   </div>
@@ -144,6 +147,7 @@
 
 <script>
 // @ is an alias to /src
+import WhatsAppBtn from '@/components/WhatsAppBtn.vue'
 import NavBarSpa from '@/components/NavBarSpa.vue'
 import PurpleButton from '@/components/PurpleButton.vue'
 import FooterPort from '@/components/FooterPort.vue'
@@ -152,6 +156,7 @@ import FooterPort from '@/components/FooterPort.vue'
 export default {
   name: 'HomeView',
   components: {
+    WhatsAppBtn,
     NavBarSpa,
     PurpleButton,
     FooterPort,
