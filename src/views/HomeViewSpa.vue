@@ -1,6 +1,8 @@
 <template>
   <WhatsAppBtn class="whatsapp fixed-button" :v-if="showButton"/> 
-  <div class="background-image">
+  
+  <div class="background-image" v-cloak id="main-page">
+    <ScrollButton/>
     <NavBarSpa/>
     <header class="container align-items-center">
       <div class="header-text">
@@ -152,6 +154,7 @@ import NavBarSpa from '@/components/NavBarSpa.vue'
 import PurpleButton from '@/components/PurpleButton.vue'
 import FooterPort from '@/components/FooterPort.vue'
 import ContactFormSpa from '@/components/ContactFormSpa.vue'
+import ScrollButton from '@/components/ScrollButton.vue'
 
 
 export default {
@@ -161,7 +164,8 @@ export default {
     NavBarSpa,
     PurpleButton,
     FooterPort,
-    ContactFormSpa
+    ContactFormSpa,
+    ScrollButton,
   },
   methods: {
     

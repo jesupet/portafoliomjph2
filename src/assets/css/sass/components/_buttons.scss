@@ -41,3 +41,27 @@
 .fixed-button.show-button {
   opacity: 1;
 }
+
+//scroll button
+.scroll-button {
+  position: fixed;
+  z-index: 2;
+  bottom: 116px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  background-color: $primary-color;
+  color: #fff;
+  border: 1px solid $white-color;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}

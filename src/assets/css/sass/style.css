@@ -481,6 +481,28 @@ header h1 {
   opacity: 1;
 }
 
+.scroll-button {
+  position: fixed;
+  z-index: 2;
+  bottom: 116px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  background-color: #5241B8;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+.scroll-button:hover {
+  opacity: 1;
+}
+
 .chile-map-cont {
   position: absolute;
   z-index: 1;
