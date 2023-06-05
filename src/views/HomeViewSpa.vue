@@ -137,8 +137,8 @@
       </div>
     </div>
   </section>
-  <section class="pb-0" id="contact">
-      <div data-tf-widget="jyga5Bo3" data-tf-opacity="100" data-tf-iframe-props="title=My typeform" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:500px;" class="typeform"></div>
+  <section class="pb-0 contact-spa" id="contact">
+      <ContactFormSpa/>
   </section>
   <FooterPort/>
 
@@ -151,6 +151,7 @@ import WhatsAppBtn from '@/components/WhatsAppBtn.vue'
 import NavBarSpa from '@/components/NavBarSpa.vue'
 import PurpleButton from '@/components/PurpleButton.vue'
 import FooterPort from '@/components/FooterPort.vue'
+import ContactFormSpa from '@/components/ContactFormSpa.vue'
 
 
 export default {
@@ -160,6 +161,7 @@ export default {
     NavBarSpa,
     PurpleButton,
     FooterPort,
+    ContactFormSpa
   },
   methods: {
     

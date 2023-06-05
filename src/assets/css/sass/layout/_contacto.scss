@@ -5,3 +5,22 @@
   min-height: 100%;
   overflow: hidden;
 }
+.contact-spa {
+  padding: 100px 48px;
+  text-align: center;
+  form {
+    padding: 50px 200px 100px;
+    input, textarea {
+      margin: 16px;
+      background-color: transparent;
+      border-color: $primary-color;
+      color: $primary-color;
+    }
+    .form-control::placeholder {
+      color: $primary-color;
+    }
+    @media (max-width: $tablet-width){
+      padding: 50px 0px 100px;
+    }
+  }
+}
