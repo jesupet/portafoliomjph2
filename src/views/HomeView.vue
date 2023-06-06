@@ -1,5 +1,6 @@
 <template>
   <WhatsAppBtn class="whatsapp fixed-button" :v-if="showButton"/>
+  <ScrollButton/>
   <div class="background-image">
     <NavBar/>
     <header class="container align-items-center">
@@ -135,8 +136,8 @@
       </div>
     </div>
   </section>
-  <section class="pb-0" id="contact">
-      <div data-tf-widget="jyga5Bo3" data-tf-opacity="100" data-tf-iframe-props="title=My typeform" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:500px;" class="typeform"></div>
+  <section class="pb-0 contact-spa" id="contact">
+      <ContactForm/>
   </section>
   <FooterPort/>
 
@@ -149,6 +150,8 @@ import WhatsAppBtn from '@/components/WhatsAppBtn.vue'
 import NavBar from '@/components/NavBar.vue'
 import PurpleButton from '@/components/PurpleButton.vue'
 import FooterPort from '@/components/FooterPort.vue'
+import ContactForm from '@/components/ContactForm.vue'
+import ScrollButton from '@/components/ScrollButton.vue'
 
 
 export default {
@@ -158,6 +161,8 @@ export default {
     NavBar,
     PurpleButton,
     FooterPort,
+    ContactForm,
+    ScrollButton
   },
   methods: {
     

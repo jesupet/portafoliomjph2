@@ -1,13 +1,13 @@
 <template>
 <div class="container">
-  <h2>Escríbeme!</h2>
+  <h2>Write Me!</h2>
   <form action="https://formsubmit.co/mjpetour@gmail.com" method="post" class="text-center">
       <input 
         type="text" 
         class="form-control input-text" 
         id="name" 
         aria-describedby="emailHelp" 
-        placeholder="Nombre"
+        placeholder="Name"
         name="name"
         required
       >
@@ -16,7 +16,7 @@
         class="form-control input-text" 
         id="number" 
         aria-describedby="emailHelp" 
-        placeholder="Teléfono"
+        placeholder="Contact Number"
         name="number"
       >
       <input 
@@ -24,7 +24,7 @@
         class="form-control input-text" 
         id="email" 
         aria-describedby="emailHelp" 
-        placeholder="Correo electrónico"
+        placeholder="Email"
         name="email"
         required
       >
@@ -33,14 +33,14 @@
         class="form-control input-text comment-text" 
         id="comentario" 
         aria-describedby="emailHelp" 
-        placeholder="Escribe lo que sea que quieras saber sobre mí, mis proyectos o habilidades :)"
+        placeholder="Write whatever you would want to know about me, my projects or my abilities :)"
         name="comentario"
         rows="4"
         required
       ></textarea>
-      <input type="hidden" name="_next" value="https://mariajesuspetour.cl/gracias">
+      <input type="hidden" name="_next" value="https://mariajesuspetour.cl/thankyou">
       <input type="hidden" name="_subject" value="Nuevo lead!">
-      <button type="submit" value="enviar" class="btn btn-purple rounded-pill my-2 ">Enviar</button>
+      <button type="submit" value="enviar" class="btn btn-purple rounded-pill my-2 ">Submit</button>
       <!--<GreenButton :type="'submit'" :buttonText="'Enviar'" class="mx-3" value="enviar"/>-->
   </form>
 </div>
@@ -49,7 +49,7 @@
 <script>
 
 export default {
-  name: 'ContactFormSpa',
+  name: 'ContactForm',
   components: {
     //GreenButton,
   },
