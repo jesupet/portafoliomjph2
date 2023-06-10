@@ -381,20 +381,15 @@ header h1 {
   background-color: #71F4CD;
 }
 
-.typeform {
-  min-height: 100%;
-  overflow: hidden;
-}
-
 .contact-spa {
   padding: 100px 48px;
   text-align: center;
 }
 .contact-spa form {
-  padding: 50px 200px 100px;
+  padding: 50px 0px 100px;
 }
 .contact-spa form input, .contact-spa form textarea {
-  margin: 16px;
+  margin: 16px 0px;
   background-color: transparent;
   border-color: #5241B8;
   color: #5241B8;
@@ -402,9 +397,9 @@ header h1 {
 .contact-spa form .form-control::placeholder, .contact-spa form input {
   color: #5241B8;
 }
-@media (max-width: 768px) {
+@media (min-width: 992px) {
   .contact-spa form {
-    padding: 50px 0px 100px;
+    padding: 50px 200px 100px;
   }
 }
 
