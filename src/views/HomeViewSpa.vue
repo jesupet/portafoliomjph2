@@ -20,9 +20,11 @@
       </div>
       <div class="col-12 col-sm-7 bio-box">
         <p>
-          Siempre he sido una persona curiosa y activa, buscando cosas nuevas que aprender, ya sea nuevos deportes, manualidades, programas, formas de hacer las cosas, etc. Después de estudiar Ingeniería Comercial me empecé a interesar por el <span>mundo digital</span>, vinculando mi lado creativo con mi mente organizada pude llevar a cabo grandes proyectos en este ámbito, sobre todo durante la pandemia. Fue en ese período donde estudié <span>Desarrollo Front End</span> y comencé a entrar en el mundo de la programación. 
+          Como la persona curiosa y activa que soy, siempre estoy buscando cosas nuevas que aprender, como deportes, manualidades, tecnologías, etc. Estudié Ingeniería Comercial y los últimos años he explorado el <span>mundo digital</span>, donde  vinculando mi creatividad con mi capacidad organizacional he aprendido nuevas herramientas y desarrollado grandes proyectos, sobre todo durante la pandemia, donde estudié <span>Desarrollo Front End</span> aprendiendo herramientas como JavaScript, HTML y CSS.
           <br/><br/>
-          Actualmente estoy buscando desarrollar proyectos web donde pueda apoyar emprendimientos o empresas que tengan un propósito que me haga sentido. Lo veo como una forma de integrar a mi carrera mi <span>fuerte motivación por la sustentabilidad.</span>
+          Actualmente estoy en la búsqueda de proyectos web donde pueda apoyar iniciativas con un propósito claro, especialmente vinculado al mundo de la <span>sustentabilidad y el cuidado del medio ambiente</span>, temas que me apasionan y que han guiado mi carrera hasta el día de hoy.
+          <br/><br/>
+          Te invito a que me escribas para que podamos conocernos y conversar sobre tus ideas y proyectos!
           <br/><br/>
         </p>
         <PurpleButton :isInternal="false" :buttonText="'Descarga mi CV'" externalLink="https://drive.google.com/file/d/1jq5uKrAo-rOzXr56NFP4A97835-5mTH2/view?usp=sharing"/>

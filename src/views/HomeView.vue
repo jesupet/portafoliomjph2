@@ -19,8 +19,14 @@
       </div>
       <div class="col-12 col-sm-7 bio-box">
         <p>
-          My friends call me Jesu or Maria. I am 30 years old and I love web design. I studied <span>Commercial Engineering</span> at Universidad Católica, where I gained an important perspective on business and management. <br/><br/>
-          While working as a <span>Product Manager</span> in charge of government software development, my interest in design and coding arose. The decision to study <span>Front End Development</span> was born because it was a perfect mix between my passion for web design and my structured and organized way of solving problems. I finished my degree in June 2022 and have been working on some freelance projects. <br/><br/>In March of this year, I started working with a design agency called Vanilla. Together, we are able to offer a complete product from the needs diagnosis to the entire website building.<br/><br/>
+          As a curious and active person that I am, I am always looking for new things to learn, such as sports, crafts, technologies, etc. 
+          <br/><br/>
+          I studied Business Engineering and in recent years I have explored <span>digital world</span>, where by combining my creativity with my organizational skills, I have learned new tools and developed great projects, especially during the pandemic, where I studied <span>Front End Development</span>, learning tools such as JavaScript, HTML, and CSS.
+          <br/><br/>
+          Currently, I am searching for web projects where I can support initiatives with a clear purpose, especially related to the world of <span>sustainability and environmental care</span>, topics that I am passionate about and that have guided my career to this day.
+          <br/><br/>
+          I invite you to write to me so we can get to know each other and talk about your ideas and projects!
+          <br/><br/>
         </p>
         <PurpleButton :isInternal="false" :buttonText="'Download my CV'" externalLink="https://drive.google.com/file/d/1jq5uKrAo-rOzXr56NFP4A97835-5mTH2/view?usp=sharing"/>
       </div>
