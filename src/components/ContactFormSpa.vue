@@ -1,7 +1,7 @@
 <template>
 <div class="container">
   <h2>Escríbeme!</h2>
-  <form action="https://formsubmit.co/mjpetour@gmail.com" method="post" class="text-center">
+  <form action="https://formsubmit.co/4e58207c5a63c0e5d269b8e31929b0ad" method="post" class="text-center">
       <input 
         type="text" 
         class="form-control input-text" 

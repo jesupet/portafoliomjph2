@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,700;1,300&display=swap");
-.background-image7, .background-image {
+.background-image, .background-image7 {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -8,7 +8,8 @@
 
 #app {
   width: 100%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   overflow-x: hidden;
 }
 
@@ -16,7 +17,8 @@
   margin: 0;
   padding: 0;
   font-family: "Karla", sans-serif;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -37,6 +39,7 @@ h1, h2, h3 {
 h1 {
   font-size: 48px;
 }
+
 h1 span {
   font-size: 32px;
   font-weight: 400;
@@ -53,6 +56,7 @@ p {
   font-size: 24px;
   font-weight: 300;
 }
+
 p span {
   font-weight: 700;
 }
@@ -61,6 +65,7 @@ p span {
   background-color: transparent;
   margin: 0px 50px;
 }
+
 @media (max-width: 768px) {
   .navbar {
     margin: 0px;
@@ -76,18 +81,23 @@ p span {
   text-transform: uppercase;
   color: #fff;
 }
+
 .nav-link:hover {
   color: #5241B8;
 }
+
 @media (max-width: 991px) {
   .nav-link:hover {
     color: #fff;
   }
 }
+
 .nav-link img {
   width: 32px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
 .nav-link img:hover {
   opacity: 0.3;
 }
@@ -99,6 +109,7 @@ p span {
 .nav-item {
   padding-right: 30px;
 }
+
 @media (max-width: 991px) {
   .nav-item {
     padding-right: 0px;
@@ -107,7 +118,9 @@ p span {
 
 #navbarNav.offcanvas {
   background-color: rgba(0, 0, 0, 0.3);
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .btn-close-white {
@@ -124,11 +137,13 @@ header {
   height: 91vh;
   position: relative;
 }
+
 header h1 {
   text-transform: none;
   color: #fff;
   display: inline-block;
 }
+
 @media (min-width: 1700px) {
   header {
     padding: 35vh 0vh;
@@ -138,18 +153,27 @@ header h1 {
 .header-text {
   display: inline-block;
 }
+
 @media (min-width: 1200px) {
   .header-text {
     width: 85%;
-    animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+    -webkit-animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+            animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid #5241B8;
   }
 }
+
 @media (min-width: 1400px) {
   .header-text {
     width: 73%;
+  }
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
   }
 }
 
@@ -158,11 +182,19 @@ header h1 {
     width: 0;
   }
 }
+
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
 @keyframes blink {
   50% {
     border-color: transparent;
   }
 }
+
 /*
 .header-container {
   display: flex;
@@ -234,6 +266,7 @@ header h1 {
 .frame-pic {
   padding: 50px;
 }
+
 .frame-pic img {
   width: 100%;
 }
@@ -241,9 +274,11 @@ header h1 {
 .bio-box {
   padding: 50px 20px;
 }
+
 .bio-box p {
   text-align: justify;
 }
+
 @media (max-width: 780px) {
   .bio-box p {
     font-size: 20px;
@@ -254,25 +289,32 @@ header h1 {
   background-color: #5241B8;
   padding: 100px 0px;
 }
+
 #myprojects h2 {
   color: #71F4CD;
 }
+
 #myprojects .row {
   padding: 50px;
 }
 
 .proy-cont {
   padding: 20px;
+  overflow: hidden;
 }
+
 .proy-cont:hover .box .overlay {
   opacity: 100%;
 }
+
 .proy-cont img {
   width: 100%;
+  max-height: 526px;
 }
 
 .box {
   position: relative;
+  -webkit-transition: 0.8s;
   transition: 0.8s;
 }
 
@@ -284,8 +326,10 @@ header h1 {
   top: 0;
   left: 0;
   opacity: 0%;
+  -webkit-transition: 0.8s;
   transition: 0.8s;
 }
+
 .overlay p {
   padding: 10px;
   color: #5241B8;
@@ -294,6 +338,7 @@ header h1 {
 .project-p {
   margin: 0px;
 }
+
 @media (max-width: 780px) {
   .project-p {
     font-size: 16px;
@@ -306,9 +351,14 @@ header h1 {
 
 .tool-box {
   padding: 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .tool-logo {
@@ -319,6 +369,7 @@ header h1 {
 
 .con-tooltip {
   position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: default;
 }
@@ -326,7 +377,7 @@ header h1 {
 .tooltip {
   visibility: hidden;
   z-index: 1;
-  opacity: 0.4;
+  opacity: .40;
   padding: 0px 20px;
   text-align: center;
   height: 42px;
@@ -336,33 +387,41 @@ header h1 {
   bottom: -60%;
   border-radius: 9px;
   font: 14px;
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 /* tooltip  after*/
 .con-tooltip:hover .tooltip {
   visibility: visible;
-  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
   opacity: 1;
-  transition: 0.3s linear;
-  animation: odsoky 1s ease-in-out infinite alternate;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+  -webkit-animation: odsoky 1s ease-in-out infinite  alternate;
+          animation: odsoky 1s ease-in-out infinite  alternate;
 }
 
 /*hover ToolTip*/
 .left:hover {
-  transform: translateX(-6px);
+  -webkit-transform: translateX(-6px);
+          transform: translateX(-6px);
 }
 
 .top:hover {
-  transform: translateY(-6px);
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
 }
 
 .bottom:hover {
-  transform: translateY(6px);
+  -webkit-transform: translateY(6px);
+          transform: translateY(6px);
 }
 
 .right:hover {
-  transform: translateX(6px);
+  -webkit-transform: translateX(6px);
+          transform: translateX(6px);
 }
 
 /*left*/
@@ -374,7 +433,8 @@ header h1 {
 .left .tooltip::after {
   top: 40%;
   left: 90%;
-  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 #contact {
@@ -385,18 +445,34 @@ header h1 {
   padding: 100px 48px;
   text-align: center;
 }
+
 .contact-spa form {
   padding: 50px 0px 100px;
 }
+
 .contact-spa form input, .contact-spa form textarea {
   margin: 16px 0px;
   background-color: transparent;
   border-color: #5241B8;
   color: #5241B8;
 }
+
+.contact-spa form .form-control::-webkit-input-placeholder, .contact-spa form input {
+  color: #5241B8;
+}
+
+.contact-spa form .form-control:-ms-input-placeholder, .contact-spa form input {
+  color: #5241B8;
+}
+
+.contact-spa form .form-control::-ms-input-placeholder, .contact-spa form input {
+  color: #5241B8;
+}
+
 .contact-spa form .form-control::placeholder, .contact-spa form input {
   color: #5241B8;
 }
+
 @media (min-width: 992px) {
   .contact-spa form {
     padding: 50px 200px 100px;
@@ -406,16 +482,22 @@ header h1 {
 #footer {
   background-color: #5241B8;
 }
+
 #footer .row {
   padding: 20px 50px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 #footer .row a img {
   width: 50px;
   margin: 0px;
   padding: 0px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
 #footer .row a img:hover {
   opacity: 0.5;
 }
@@ -443,6 +525,7 @@ header h1 {
 .btn-nav {
   font-size: 15px;
 }
+
 @media (max-width: 991px) {
   .btn-nav {
     margin-top: 15px;
@@ -464,6 +547,7 @@ header h1 {
 
 .whatsapp-icon {
   opacity: 0.8;
+  -webkit-transition: 0.7s;
   transition: 0.7s;
   width: 53px;
 }
@@ -488,12 +572,20 @@ header h1 {
   border: 1px solid #fff;
   border-radius: 50%;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   opacity: 0.8;
+  -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
+
 .scroll-button:hover {
   opacity: 1;
 }
@@ -517,16 +609,23 @@ header h1 {
 }
 
 .big-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   /* Alinea verticalmente al centro */
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   /* Alinea horizontalmente al centro */
 }
 
 .thanks-cont {
   color: #fff;
 }
+
 @media (min-width: 992px) {
   .thanks-cont {
     width: 40%;
@@ -537,6 +636,7 @@ header h1 {
   font-size: 90px;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
+
 @media (max-width: 480px) {
   .big-txt {
     font-size: 60px;
@@ -560,5 +660,4 @@ header h1 {
   left: 0;
   right: 0;
 }
-
 /*# sourceMappingURL=style.css.map */

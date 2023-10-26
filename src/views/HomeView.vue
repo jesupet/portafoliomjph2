@@ -64,6 +64,16 @@
       </div>
       <div class="col-12 col-sm-6 proy-cont">
         <div class="box">
+          <img src="@/assets/img/praderas.png" alt="" class="img-fluid">
+          <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
+            <PurpleButton :isInternal="false" :buttonText="'Praderas de Mañihuales'" externalLink="https://praderasdemanihuales.cl/"/>
+            <p class="project-p">Front End Developer with Vanilla</p>
+          </div>
+        </div>
+      </div>
+      <!-- VANILLA SOON
+      <div class="col-12 col-sm-6 proy-cont">
+        <div class="box">
           <img src="@/assets/img/vanilla.png" alt="" class="img-fluid">
           <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
             <PurpleButton :isInternal="false" :buttonText="'Vanilla (Soon)'"/>
@@ -71,6 +81,7 @@
           </div>
         </div>
       </div>
+      -->
     </div>
   </section>
   <section id="toolkit" class="container text-center">
