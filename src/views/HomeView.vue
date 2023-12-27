@@ -28,7 +28,7 @@
           I invite you to write to me so we can get to know each other and talk about your ideas and projects!
           <br/><br/>
         </p>
-        <PurpleButton :isInternal="false" :buttonText="'Download my CV'" externalLink="https://drive.google.com/file/d/1jq5uKrAo-rOzXr56NFP4A97835-5mTH2/view?usp=sharing"/>
+        <PurpleButton :isInternal="false" :buttonText="'Download my CV'" externalLink="https://www.mariajesuspetour.cl/CV_MJPetour_06_2023.pdf"/>
       </div>
     </div>
   </div>

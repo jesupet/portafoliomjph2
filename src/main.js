@@ -7,3 +7,4 @@ import 'bootstrap/dist/js/bootstrap.js'
 import './assets/css/sass/style.css'
 
 createApp(App).use(store).use(router).mount('#app')
+

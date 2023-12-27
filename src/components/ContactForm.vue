@@ -53,7 +53,9 @@ export default {
   components: {
     //GreenButton,
   },
- 
+  mounted() {
+    window.Tally.loadEmbeds()
+  }
 }
 
 </script>
