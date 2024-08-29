@@ -1,8 +1,12 @@
 .btn-purple {
   background-color: $primary-color;
   color: $white-color;
-  font-size: 20px;
-  padding: 8px 20px 8px 20px;
+  font-size: 14px;
+  padding: 8px 20px;
+  @media (min-width: 991px) {
+    font-size: 20px;
+    padding: 8px 20px 8px 20px;
+  }
 }
 .btn-purple:hover {
   text-decoration: none;

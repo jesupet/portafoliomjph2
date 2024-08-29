@@ -37,14 +37,15 @@
   opacity: 0%;
   transition: 0.8s;
   p {
-    padding: 10px;
+    padding: 10px 10px 0px;
     color: $primary-color;
   }
 }
 .project-p {
   margin: 0px;
+  font-size: 20px;
   @media (max-width: 780px){
-    font-size: 16px;
+    font-size: 12px;
   }
   
 }

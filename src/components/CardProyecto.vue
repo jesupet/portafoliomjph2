@@ -8,6 +8,7 @@
       <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
         <PurpleButton :isInternal="false" :buttonText="proyecto.nombre" :externalLink="proyecto.url"/>
         <p class="project-p">{{ proyecto.descripcion }}</p>
+        <p class="project-p pt-0">{{ proyecto.año }}</p>
       </div>
     </div>
   </div>
