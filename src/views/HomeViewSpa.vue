@@ -27,60 +27,14 @@
           Te invito a que me escribas para que podamos conocernos y conversar sobre tus ideas y proyectos!
           <br/><br/>
         </p>
-        <PurpleButton :isInternal="false" :buttonText="'Descarga mi CV'" externalLink="https://www.mariajesuspetour.cl/CV_MJPetour_06_2023.pdf"/>
+        <PurpleButton :isInternal="false" :buttonText="'Descarga mi CV'" externalLink="https://www.mariajesuspetour.cl/CV_MJPetour_08_2024.pdf"/>
       </div>
     </div>
   </div>
   <section id="myprojects" class="container-fluid">
     <h2>Mis Proyectos</h2>
     <div class="row">
-      <div class="col-12 col-sm-6 proy-cont">
-        <div class="box">
-          <img src="@/assets/img/eleamchile.png" alt="" class="img-fluid">
-          <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-            <PurpleButton :isInternal="false" :buttonText="'Eleam Chile'" externalLink="https://eleamchile.cl"/>
-            <p class="project-p">Project Manager / Diseño UX UI</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 proy-cont">
-        <div class="box">
-          <img src="@/assets/img/satournow.png" alt="" class="img-fluid">
-          <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-            <PurpleButton :isInternal="false" :buttonText="'Sa-tour-now!'" externalLink="https://jesupet.github.io/SaturnoGit/"/>
-            <p class="project-p">Proyecto Final Carrera Front End</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 proy-cont">
-        <div class="box">
-          <img src="@/assets/img/futuropatagonia.png" alt="" class="img-fluid">
-          <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-            <PurpleButton :isInternal="false" :buttonText="'Futuro Patagonia'" externalLink="https://futuropatagonia.cl/"/>
-            <p class="project-p">Desarrollo Front End para Vanilla</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 proy-cont">
-        <div class="box">
-          <img src="@/assets/img/praderas.png" alt="" class="img-fluid">
-          <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-            <PurpleButton :isInternal="false" :buttonText="'Praderas de Mañihuales'" externalLink="https://praderasdemanihuales.cl/"/>
-            <p class="project-p">Front End Developer with Vanilla</p>
-          </div>
-        </div>
-      </div>
-      <!-- PRONTO VANILLA
-      <div class="col-12 col-sm-6 proy-cont">
-        <div class="box">
-          <img src="@/assets/img/vanilla.png" alt="" class="img-fluid">
-          <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-            <PurpleButton :isInternal="false" :buttonText="'Vanilla (Soon)'"/>
-            <p class="project-p">Desarrollo Front End</p>
-          </div>
-        </div>
-      </div>
-      -->
+      <CardProyecto/>
     </div>
   </section>
   <section id="toolkit" class="container text-center">
@@ -168,7 +122,7 @@ import PurpleButton from '@/components/PurpleButton.vue'
 import FooterPort from '@/components/FooterPort.vue'
 import ContactFormSpa from '@/components/ContactFormSpa.vue'
 import ScrollButton from '@/components/ScrollButton.vue'
-
+import CardProyecto from '@/components/CardProyecto.vue'
 
 export default {
   name: 'HomeView',
@@ -179,6 +133,7 @@ export default {
     FooterPort,
     ContactFormSpa,
     ScrollButton,
+    CardProyecto,
   },
   methods: {
     

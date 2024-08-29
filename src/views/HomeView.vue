@@ -28,49 +28,16 @@
           I invite you to write to me so we can get to know each other and talk about your ideas and projects!
           <br/><br/>
         </p>
-        <PurpleButton :isInternal="false" :buttonText="'Download my CV'" externalLink="https://www.mariajesuspetour.cl/CV_MJPetour_06_2023.pdf"/>
+        <PurpleButton :isInternal="false" :buttonText="'Download my CV'" externalLink="https://www.mariajesuspetour.cl/CV_MJPetour_08_2024_English.pdf"/>
       </div>
     </div>
   </div>
   <section id="myprojects" class="container-fluid">
     <h2>My Projects</h2>
     <div class="row">
-      <div class="col-12 col-sm-6 proy-cont">
-        <div class="box">
-          <img src="@/assets/img/eleamchile.png" alt="" class="img-fluid">
-          <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-            <PurpleButton :isInternal="false" :buttonText="'Eleam Chile'" externalLink="https://eleamchile.cl"/>
-            <p class="project-p">Project Manager / Diseño UX UI</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 proy-cont">
-        <div class="box">
-          <img src="@/assets/img/satournow.png" alt="" class="img-fluid">
-          <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-            <PurpleButton :isInternal="false" :buttonText="'Sa-tour-now!'" externalLink="https://jesupet.github.io/SaturnoGit/"/>
-            <p class="project-p">Final Project Front End Career</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 proy-cont">
-        <div class="box">
-          <img src="@/assets/img/futuropatagonia.png" alt="" class="img-fluid">
-          <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-            <PurpleButton :isInternal="false" :buttonText="'Futuro Patagonia'" externalLink="https://futuropatagonia.cl/"/>
-            <p class="project-p">Front End Developer with Vanilla</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 proy-cont">
-        <div class="box">
-          <img src="@/assets/img/praderas.png" alt="" class="img-fluid">
-          <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-            <PurpleButton :isInternal="false" :buttonText="'Praderas de Mañihuales'" externalLink="https://praderasdemanihuales.cl/"/>
-            <p class="project-p">Front End Developer with Vanilla</p>
-          </div>
-        </div>
-      </div>
+      <CardProyectoIng/>
+      
+      
       <!-- VANILLA SOON
       <div class="col-12 col-sm-6 proy-cont">
         <div class="box">
@@ -169,6 +136,7 @@ import PurpleButton from '@/components/PurpleButton.vue'
 import FooterPort from '@/components/FooterPort.vue'
 import ContactForm from '@/components/ContactForm.vue'
 import ScrollButton from '@/components/ScrollButton.vue'
+import CardProyectoIng from '@/components/CardProyectoIng.vue'
 
 
 export default {
@@ -179,7 +147,8 @@ export default {
     PurpleButton,
     FooterPort,
     ContactForm,
-    ScrollButton
+    ScrollButton,
+    CardProyectoIng
   },
   methods: {
     

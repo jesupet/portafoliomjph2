@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "Relbase",
+    "descripcion": "Desarrollo Front End para Vanilla",
+    "description": "Front End Development with Vanilla",
+    "url": "https://relbase.cl/",
+    "img": "relbase.png"
+  },
+  {
+    "nombre": "Agora Paisaje",
+    "descripcion": "Diseño UX y Desarrollo Front End para Vanilla",
+    "description": "UX Design and Front End Development with Vanilla",
+    "url": "https://agorapaisaje.cl/",
+    "img": "agora.png"
+  },
+  {
+    "nombre": "BreakTime",
+    "descripcion": "Diseño UX y Desarrollo Front End para Vanilla",
+    "description": "UX Design and Front End Development with Vanilla",
+    "url": "https://breaktime.cl/",
+    "img": "breaktime.png"
+  },
+  {
+    "nombre": "Praderas de Mañihuales",
+    "descripcion": "Desarrollo Front End para Vanilla",
+    "description": "Front End Development with Vanilla",
+    "url": "https://praderasdemanihuales.cl/",
+    "img": "praderas.png"
+  },
+  {
+    "nombre": "Futuro Patagonia",
+    "descripcion": "Desarrollo Front End para Vanilla",
+    "description": "Front End Development with Vanilla",
+    "url": "https://futuropatagonia.cl/",
+    "img": "futuropatagonia.png"
+  },
+  {
+    "nombre": "Eleam Chile",
+    "descripcion": "Project Manager / Diseño UX UI",
+    "description": "Project Manager / UX UI Design",
+    "url": "https://eleamchile.cl",
+    "img": "eleamchile.png"
+  }
+]

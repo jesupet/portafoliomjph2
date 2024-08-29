@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import HomeViewSpa from '../views/HomeViewSpa.vue'
 import ThankYouPage from '../views/ThankYouPage.vue'
@@ -28,19 +28,19 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(process.env.BASE_URL),
   routes,
   scrollBehavior(to, from, savedPosition) {
-    if (savedPosition) {
-      return savedPosition;
-    }
     if (to.hash) {
-      // BEFORE:
-      // return { selector: to.hash }
-
-      return { el: to.hash }
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      };
+    } else if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { top: 0, left: 0 };
     }
-    return { x: 0, y: 0 };
   },
 })
 
