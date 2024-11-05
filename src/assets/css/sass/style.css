@@ -391,8 +391,16 @@ header h1 {
   padding: 100px 48px;
   text-align: center;
 }
+.contact-spa h2 {
+  padding-bottom: 30px;
+}
+@media (min-width: 992px) {
+  .contact-spa iframe {
+    padding: 0px 200px;
+  }
+}
 .contact-spa form {
-  padding: 50px 0px 100px;
+  padding: 0px 0px 100px;
 }
 .contact-spa form input, .contact-spa form textarea {
   margin: 16px 0px;
@@ -408,7 +416,7 @@ header h1 {
 }
 @media (min-width: 992px) {
   .contact-spa form {
-    padding: 50px 200px 100px;
+    padding: 0px 200px 100px;
   }
 }
 

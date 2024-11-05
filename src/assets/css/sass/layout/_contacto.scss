@@ -4,8 +4,16 @@
 .contact-spa {
   padding: 100px 48px;
   text-align: center;
+  h2 {
+    padding-bottom: 30px;
+  }
+  iframe {
+    @media (min-width: $desktop-width){
+      padding: 0px 200px;
+    }
+  }
   form {
-    padding: 50px 0px 100px;
+    padding: 0px 0px 100px;
     input, textarea {
       margin: 16px 0px;
       background-color: transparent;
@@ -16,7 +24,7 @@
       color: $primary-color;
     }
     @media (min-width: $desktop-width){
-      padding: 50px 200px 100px;
+      padding: 0px 200px 100px;
     }
   }
 }

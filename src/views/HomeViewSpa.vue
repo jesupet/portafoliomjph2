@@ -106,7 +106,7 @@
       </div>
     </div>
   </section>
-  <section class="pb-0 contact-spa" id="contact">
+  <section class="contact-spa" id="contact">
       <ContactFormSpa/>
   </section>
   <FooterPort/>

@@ -1,7 +1,8 @@
 <template>
 <div class="container">
   <h2>Escríbeme!</h2>
-  <iframe data-tally-src="https://tally.so/embed/wvDvAX?hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="265" frameborder="0" marginheight="0" marginwidth="0" title="Escríbeme"></iframe>
+  <iframe data-tally-src="https://tally.so/embed/3xNbqd?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="265" frameborder="0" marginheight="0" marginwidth="0" title="Escríbeme!"></iframe>
+
   <!--
   <form action="https://formsubmit.co/4e58207c5a63c0e5d269b8e31929b0ad" method="post" class="text-center">
       <input 
