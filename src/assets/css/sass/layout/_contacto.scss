@@ -12,19 +12,4 @@
       padding: 0px 200px;
     }
   }
-  form {
-    padding: 0px 0px 100px;
-    input, textarea {
-      margin: 16px 0px;
-      background-color: transparent;
-      border-color: $primary-color;
-      color: $primary-color;
-    }
-    .form-control::placeholder, input {
-      color: $primary-color;
-    }
-    @media (min-width: $desktop-width){
-      padding: 0px 200px 100px;
-    }
-  }
 }

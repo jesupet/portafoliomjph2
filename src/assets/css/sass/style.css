@@ -399,26 +399,6 @@ header h1 {
     padding: 0px 200px;
   }
 }
-.contact-spa form {
-  padding: 0px 0px 100px;
-}
-.contact-spa form input, .contact-spa form textarea {
-  margin: 16px 0px;
-  background-color: transparent;
-  border-color: #5241B8;
-  color: #5241B8;
-}
-.contact-spa form .form-control::-moz-placeholder {
-  color: #5241B8;
-}
-.contact-spa form .form-control::placeholder, .contact-spa form input {
-  color: #5241B8;
-}
-@media (min-width: 992px) {
-  .contact-spa form {
-    padding: 0px 200px 100px;
-  }
-}
 
 #footer {
   background-color: #5241B8;
