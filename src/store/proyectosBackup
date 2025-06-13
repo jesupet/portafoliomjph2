@@ -1,0 +1,16 @@
+ [{
+    "nombre": "BreakTime",
+    "descripcion": "Diseño UX y Desarrollo Front End para Vanilla",
+    "description": "UX Design and Front End Development with Vanilla",
+    "url": "https://breaktime.cl/",
+    "img": "breaktime.png",
+    "año": "2024"
+  },
+  {
+    "nombre": "Eleam Chile",
+    "descripcion": "Project Manager / Diseño UX UI",
+    "description": "Project Manager / UX UI Design",
+    "url": "https://eleamchile.cl",
+    "img": "eleamchile.png",
+    "año": "2021 - 2022"
+  }]

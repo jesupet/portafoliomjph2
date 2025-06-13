@@ -5,7 +5,7 @@
     class="scroll-button"
   >
   <svg width="158" height="158" viewBox="0 0 158 158" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="79" cy="79" r="79" transform="rotate(-180 79 79)" fill="#5241B8"/>
+    <circle cx="79" cy="79" r="79" transform="rotate(-180 79 79)" fill="#CB1518"/>
     <path d="M78.8786 47.5699L110.43 79.9739M78.8786 47.5699L47.3271 79.9739M78.8786 47.5699L78.8786 110.43" stroke="white" stroke-width="14" stroke-linecap="round"/>
   </svg>
   </button>

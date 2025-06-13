@@ -6,7 +6,7 @@
         <img :src="imagePath(proyecto.img)" alt="" class="img-fluid">
       </div>
       <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-        <PurpleButton :isInternal="false" :buttonText="proyecto.nombre" :externalLink="proyecto.url"/>
+        <PurpleButton class="btn-red" :isInternal="false" :buttonText="proyecto.nombre" :externalLink="proyecto.url"/>
         <p class="project-p">{{ proyecto.descripcion }}</p>
         <p class="project-p pt-0">{{ proyecto.año }}</p>
       </div>
@@ -29,7 +29,12 @@ export default {
   },
   methods: {
     imagePath(imagen) {
-      return  require(`@/assets/img/${imagen}`)
+      try {
+      return require(`@/assets/img/${imagen}`)
+    } catch (error) {
+      console.error('Imagen no encontrada:', imagen)
+      return require('@/assets/img/solarmovil.png') // usa una imagen genérica
+    }
     }
   }
 }

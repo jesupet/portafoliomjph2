@@ -1,5 +1,5 @@
 <template>
-  <WhatsAppBtn class="whatsapp fixed-button" :v-if="showButton"/> 
+  <WhatsAppBtn class="whatsapp fixed-button"/> 
   
   <div class="background-image" v-cloak id="main-page">
     <ScrollButton/>
@@ -27,7 +27,7 @@
           Te invito a que me escribas para que podamos conocernos y conversar sobre tus ideas y proyectos!
           <br/><br/>
         </p>
-        <PurpleButton :isInternal="false" :buttonText="'Descarga mi CV'" externalLink="https://www.mariajesuspetour.cl/CV_MJPetour_08_2024.pdf"/>
+        <PurpleButton class="btn-red" :isInternal="false" :buttonText="'Descarga mi CV'" externalLink="https://www.mariajesuspetour.cl/CV_MJPetour_08_2024.pdf"/>
       </div>
     </div>
   </div>
@@ -57,11 +57,27 @@
         </div>
       </div>
       <div class="text-center mx-2 con-tooltip">
+        <a href="https://angular.dev/" target="_blank">
+          <img src="@/assets/img/tool_kit_logos/angular.png" alt="angular logo" class="img-fluid tool-logo">
+        </a>
+        <div class="tooltip">
+          <p>Angular</p>
+        </div>
+      </div>
+      <div class="text-center mx-2 con-tooltip">
         <a href="https://vuejs.org/" target="_blank">
           <img src="@/assets/img/tool_kit_logos/vue.png" alt="vue logo" class="img-fluid tool-logo">
         </a>
         <div class="tooltip">
-          <p>Vue</p>
+          <p>VueJS</p>
+        </div>
+      </div>
+      <div class="text-center mx-2 con-tooltip">
+        <a href="https://github.com/" target="_blank">
+          <img src="@/assets/img/tool_kit_logos/github.svg" alt="github logo" class="img-fluid tool-logo">
+        </a>
+        <div class="tooltip">
+          <p>GitHub</p>
         </div>
       </div>
       <div class="text-center mx-2 con-tooltip align-items-center">

@@ -1,27 +1,51 @@
 [
   {
+    "nombre": "Solar Móvil",
+    "descripcion": "Diseño UX y Desarrollo Front End",
+    "description": "UX Design and Front End Development",
+    "url": "https://solar-movil.com/",
+    "img": "solarmovil.png",
+    "año": "2025"
+  },
+  {
+    "nombre": "EcusFam",
+    "descripcion": "Diseño UX UI y Desarrollo Front End",
+    "description": "UX UI Design and Front End Development",
+    "url": "https://ecusfam.cl/",
+    "img": "ecusfam.png",
+    "año": "2025"
+  },
+  {
+    "nombre": "Puya Propiedades",
+    "descripcion": "Diseño UX UI y Desarrollo Front End",
+    "description": "UX UI Design and Front End Development",
+    "url": "https://puyapropiedades.cl/",
+    "img": "puya.png",
+    "año": "2025"
+  },
+  {
+    "nombre": "Mine Class",
+    "descripcion": "Desarrollo Front End para Vanilla",
+    "description": "Front End Development with Vanilla",
+    "url": "https://mine-class.cl/",
+    "img": "mine-class.png",
+    "año": "2024"
+  },
+  {
+    "nombre": "La Higuera",
+    "descripcion": "Diseño UX y Desarrollo Front End para Vanilla",
+    "description": "UX Design and Front End Development with Vanilla",
+    "url": "https://lahiguera.org/",
+    "img": "lahiguera.png",
+    "año": "2024"
+  },
+  {
     "nombre": "Relbase",
     "descripcion": "Desarrollo Front End para Vanilla",
     "description": "Front End Development with Vanilla",
     "url": "https://relbase.cl/",
     "img": "relbase.png",
     "año": "2023"
-  },
-  {
-    "nombre": "Agora Paisaje",
-    "descripcion": "Diseño UX y Desarrollo Front End para Vanilla",
-    "description": "UX Design and Front End Development with Vanilla",
-    "url": "https://agorapaisaje.cl/",
-    "img": "agora.png",
-    "año": "2024"
-  },
-  {
-    "nombre": "BreakTime",
-    "descripcion": "Diseño UX y Desarrollo Front End para Vanilla",
-    "description": "UX Design and Front End Development with Vanilla",
-    "url": "https://breaktime.cl/",
-    "img": "breaktime.png",
-    "año": "2024"
   },
   {
     "nombre": "Praderas de Mañihuales",
@@ -38,13 +62,5 @@
     "url": "https://futuropatagonia.cl/",
     "img": "futuropatagonia.png",
     "año": "2023"
-  },
-  {
-    "nombre": "Eleam Chile",
-    "descripcion": "Project Manager / Diseño UX UI",
-    "description": "Project Manager / UX UI Design",
-    "url": "https://eleamchile.cl",
-    "img": "eleamchile.png",
-    "año": "2021 - 2022"
   }
 ]

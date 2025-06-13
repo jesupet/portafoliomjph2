@@ -1,5 +1,5 @@
 <template>
-  <WhatsAppBtn class="whatsapp fixed-button" :v-if="showButton"/>
+  <WhatsAppBtn class="whatsapp fixed-button"/>
   <ScrollButton/>
   <div class="background-image">
     <NavBar/>
@@ -28,7 +28,7 @@
           I invite you to write to me so we can get to know each other and talk about your ideas and projects!
           <br/><br/>
         </p>
-        <PurpleButton :isInternal="false" :buttonText="'Download my CV'" externalLink="https://www.mariajesuspetour.cl/CV_MJPetour_08_2024_English.pdf"/>
+        <PurpleButton class="btn-red" :isInternal="false" :buttonText="'Download my CV'" externalLink="https://www.mariajesuspetour.cl/CV_MJPetour_08_2024_English.pdf"/>
       </div>
     </div>
   </div>
@@ -36,19 +36,6 @@
     <h2>My Projects</h2>
     <div class="row">
       <CardProyectoIng/>
-      
-      
-      <!-- VANILLA SOON
-      <div class="col-12 col-sm-6 proy-cont">
-        <div class="box">
-          <img src="@/assets/img/vanilla.png" alt="" class="img-fluid">
-          <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-            <PurpleButton :isInternal="false" :buttonText="'Vanilla (Soon)'"/>
-            <p class="project-p">Front End Developer with Vanilla</p>
-          </div>
-        </div>
-      </div>
-      -->
     </div>
   </section>
   <section id="toolkit" class="container text-center">

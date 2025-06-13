@@ -1,8 +1,8 @@
 <template>
-    <button v-if="isInternal" @click="scrollToSection(internalLink)" type="button" class="btn btn-purple rounded-pill">
+    <button v-if="isInternal" :class="color" @click="scrollToSection(internalLink)" type="button" class="btn btn-purple rounded-pill">
       {{buttonText}}
     </button>
-    <a class="btn btn-purple rounded-pill" v-else :href="externalLink" target="_blank">{{ buttonText }}</a>
+    <a class="btn rounded-pill" v-else :href="externalLink" target="_blank">{{ buttonText }}</a>
 </template>
 
 <script>
@@ -27,6 +27,10 @@ export default {
       type: String,
       default: '#',
     },
+    color: {
+      type: String,
+      default: 'btn-purple',
+    }
   },
   methods: {
     ...mapActions(['scrollToSection'])

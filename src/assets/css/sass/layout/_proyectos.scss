@@ -26,6 +26,8 @@
 .box{
   position: relative;
   transition: 0.8s;
+  border-radius: 20px;
+  overflow: hidden;
 }
 .overlay {
   background-color: $secondary-color;
@@ -40,6 +42,20 @@
     padding: 10px 10px 0px;
     color: $primary-color;
   }
+  @media (max-width: 780px){
+    width: 100%;
+    opacity: 90%;
+    position: relative;
+    margin-top: 20px;
+    background-color: transparent;
+    p {
+      color: $white-color;
+    }
+    .btn {
+      background-color: $secondary-color;
+      color: $primary-color;
+    }
+  }
 }
 .project-p {
   margin: 0px;
@@ -47,5 +63,4 @@
   @media (max-width: 780px){
     font-size: 12px;
   }
-  
 }
