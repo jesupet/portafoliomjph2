@@ -7,6 +7,7 @@
             </div>
             <div class="col-6 text-center text-sm-start">
                 <a href="https://www.linkedin.com/in/mariajesuspetour" target="_blank"><img src="../assets/linkedin.png" alt=""></a>
+                <a href="https://www.instagram.com/jesu_dev/" target="_blank"><img src="../assets/icons/instagram_icon.svg" alt=""></a>
             </div>  
         </div>
     </div>

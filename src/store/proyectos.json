@@ -1,10 +1,26 @@
-[
+[ 
+  {
+    "nombre": "The Palpa Company",
+    "descripcion": "Desarrollo Front End",
+    "description": "Front End Development",
+    "url": "https://thepalpa.com/",
+    "img": "thepalpa.png",
+    "año": "2025"
+  },
   {
     "nombre": "Solar Móvil",
     "descripcion": "Diseño UX y Desarrollo Front End",
     "description": "UX Design and Front End Development",
     "url": "https://solar-movil.com/",
     "img": "solarmovil.png",
+    "año": "2025"
+  },
+  {
+    "nombre": "Brain Invest",
+    "descripcion": "Diseño UX UI y Desarrollo en CMS",
+    "description": "UX UI Design and CMS Development",
+    "url": "https://braininvest.cl/",
+    "img": "braininvest.png",
     "año": "2025"
   },
   {
